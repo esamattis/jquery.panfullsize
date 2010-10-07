@@ -32,7 +32,7 @@
  *
  *
  */
-jQuery.fn.panFullSize = function(x, y){
+jQuery.fn.panFullSize = function(x, y, afterLoaded){
 
     this.each(function(){
 
@@ -125,6 +125,9 @@ jQuery.fn.panFullSize = function(x, y){
 
             });
 
+            if (afterLoaded) {
+                afterLoaded();
+            }
         }
 
 

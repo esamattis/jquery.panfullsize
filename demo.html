@@ -11,13 +11,14 @@
 
 
 $(document).ready( function() {
-    $("img#mypic").panFullSize(700, 450).css("border", "medium solid black");
+
+    var $pic = $("img#mypic");
 
     $("a#zoom").toggle(function(){
-            $("img#mypic").normalView();
+            $pic.panFullSize(700, 450); 
         },
         function(){
-            $("img#mypic").panFullSize(); 
+            $pic.normalView();
         }
     );
 
