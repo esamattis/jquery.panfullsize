@@ -12,6 +12,21 @@ jQuery plugin - Pan full size images
 - Tested with Firefox 3.6, Google Chrome 7 and Opera 10.60
 
 
+Example
+-------
+
+    $("img#mypic").panFullSize(700, 450).css("border", "medium solid black");
+
+    $("a#zoom").toggle(function(){
+            $("img#mypic").normalView();
+        },
+        function(){
+            $("img#mypic").panFullSize();.
+        }
+    );
+
+
+
 Checkout the demo here:
 
 http://epeli.github.com/jquery.panfullsize/
