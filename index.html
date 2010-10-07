@@ -31,24 +31,7 @@ $(document).ready( function() {
 
 
 <h1 id="t">jQuery plugin - Pan full size images</h1>
-<p>The plugin - <a href="http://www.suuronen.org/js/jquery.panFullSize.js" >jquery.panFullSize.js</a></p>
-
-<ul>
-<li>Returns a inline-block &quot;pan&quot; div-element with the image as background.</li>
-<li>Syntax: $("img").panFullSize(width, height);</li>
-<ul>
-    <li>Width and height are the dimensions of pan-div.</li>
-    <li>If not set, values will be taken from the img-element or, if already exists, from the pan-div.</li>
-</ul>
-<li>Normal image view can be restored with normalView().  </li>
-<li>Throws an exception if tried to apply with other than img-element or the created pan-div.</li>
-<li>Tested with Firefox 3.6, Google Chrome 7 and Opera 10.60</li>
-<li>Contact: esa-matti [a] suuronen [dot] org
-<li><a href="http://plugins.jquery.com/project/panFullSize">jQuery plugin page</a></li>
-
-
-</ul>
-
+<p>Github page<a href="http://github.com/epeli/jquery.panfullsize" >jquery.panFullSize.js</a></p>
 
 <h2>
 Drag image to pan
@@ -63,28 +46,6 @@ Drag image to pan
 
 </p>
 
-<h2>Example code</h2>
-
-
-<pre>
-
-$("img#mypic").panFullSize(700, 450).css("border", "medium solid black");
-
-$("a#zoom").toggle(function(){
-        $("img#mypic").normalView();
-    },
-    function(){
-        $("img#mypic").panFullSize(); 
-    }
-);
-
-
-
-
-</pre>
-
-
-<small id="test" > </small>
 
 </div>
 
