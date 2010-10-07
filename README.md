@@ -10,3 +10,6 @@ jQuery plugin - Pan full size images
     - Normal image view can be restored with normalView().
     - Throws an exception if tried to apply with other than img-element or the created pan-div.
 
+Checkout the demo here
+
+http://epeli.github.com/jquery.panfullsize/
