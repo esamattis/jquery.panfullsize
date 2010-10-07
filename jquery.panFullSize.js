@@ -21,7 +21,7 @@
  * @author      Esa-Matti Suuronen
  * @contact     esa-matti [a] suuronen [dot] org
  * @license     GPL
- * @version     1.02
+ * @version     1.1
  *
  *
  *
@@ -63,13 +63,13 @@ jQuery.fn.panFullSize = function(x, y, afterLoaded){
         var exists = pan.is("*");
 
         if (exists) {
-            x = x || pan.width();
-            y = y || pan.height();
+            x = x || pan.width();
+            y = y || pan.height();
         }
         else {
             // Defaults from img-element
-            x = x || pic.width();
-            y = y || pic.height();
+            x = x || pic.width();
+            y = y || pic.height();
         }
 
         var box_width = x;
