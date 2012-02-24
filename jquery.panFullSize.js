@@ -128,6 +128,17 @@ jQuery.fn.panFullSize = function(x, y, afterLoaded){
             if (afterLoaded) {
                 afterLoaded();
             }
+            
+            //Center image on zoom init
+            box_width = pan.width();
+            box_height = pan.height();
+            
+            var x = -(pic_real_width - box_width) / 2;
+            var y = -(pic_real_height - box_height) / 2;
+            
+            pan.css( {backgroundPosition:  x.toString() +"px " + y.toString() + "px"} )
+            prevX = x;
+            prevY = y;
         }
 
 
