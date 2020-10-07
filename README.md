@@ -30,4 +30,4 @@ Example
 
 Checkout the demo here:
 
-http://epeli.github.com/jquery.panfullsize/
+http://esamattis.github.io/jquery.panfullsize
