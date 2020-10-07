@@ -21,6 +21,8 @@ $(document).ready( function() {
             $pic.normalView();
         }
     );
+    
+    $('.panFullSizeGallery').panFullSize(500,300);
 
 });
 </script>
@@ -48,5 +50,18 @@ Drag image to pan
 </div>
 
 
+<div>
+<h2>
+Multiimage Gallery
+</h2>
+
+<div class="panFullSizeGallery">
+  <img src="Chrysanthemum.jpg" width="600"  alt="Chrysanthemum" />
+  <img src="testimage.jpg" width="600" alt="finnish winter" />
+  <img src="Desert.jpg" width="600" alt="Desert" />
+  <br><a href="#" class="prevButton">&lt; Prev</a> <a href="#" class="nextButton">Next &gt;</a>
+</div>
+
+</div>
  </body>
  </html>
